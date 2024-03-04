@@ -1,0 +1,25 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <style></style>
+
+  <head>
+    <title>Kommandotolksliknande Hemsida</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/terminal.css" />
+  </head>
+
+  <body>
+    <div id="terminal">
+      <pre id="terminal-output"></pre>
+      <input type="text" id="command-input" autofocus />
+    </div>
+    <div id="nano-editor" style="display: none">
+      <textarea id="nano-textarea" rows="20" cols="60"></textarea>
+      <div>Press Ctrl+S to save and exit (simulated)</div>
+    </div>
+
+    <script src="assets/scripts/jquery-3.7.1.min.js"></script>
+    <script src="assets/scripts/terminal.js"></script>
+  </body>
+</html>
